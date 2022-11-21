@@ -19,4 +19,5 @@ parallax.addEventListener('mousemove', e => {
         ${x / sBack}%,
         ${y / sBack}%
     )`;
+
 });
