@@ -28,4 +28,3 @@ parallax.addEventListener('mousemove', e => {
         )`;
     }
 });
-console.log('red')

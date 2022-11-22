@@ -10,12 +10,10 @@ body{
 [class*="__container"]{
     max-width: 1200px;
     margin: 0 auto;
-
 }
 [class*="__box"]{
     max-width: 1920px;
     margin: 0 auto;
-
 }
 @media(max-width:1300px){
     //параллакс заканчивается
@@ -23,7 +21,6 @@ body{
 .parallax {
     display: flex;
     height: 1160px;
-    
     @media(max-width:1900px){
         height: 1140px;
     }
@@ -147,13 +144,10 @@ body{
     @media(max-width:360px){
         height: 200px;
     }
- 
- 
     background: url('../img/bg_effects.webp') no-repeat;
     background-size: cover!important;
     position: relative;
     overflow: hidden; //отображает только область внутри блока остальное будет скрыто
-
     &__front, &__back, &__front, &__way {
         position: absolute;
         top: 0;
@@ -174,39 +168,20 @@ body{
     &__front{
         z-index: 3;
     }
-  
     &__front img, &__back img, &__center img, &__way img{
         position: absolute;
-       
         left: 50%;
     }
-    // &__front img{
-    //     /* box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5); */
-    //     /* max-width: 220px; */
-    // }
-    // &__back img{
-    //     /* max-width: 380px; */
-    // }
-    // &__front img {
-
-    // }
-
- 
     &__way img:nth-child(1){
         margin-top: -10%;
         margin-left: -68%;
         width: 31%;
-       
     }
     &__way img:nth-child(2){
         margin-top: -1%;
         margin-left: 37%;
         width: 33%;
     }
-
-
-
-
     &__front img:nth-child(1){
         margin-top: 45%;
         margin-left:-55%;
@@ -217,20 +192,12 @@ body{
         margin-left: -10%;
         width:10%;
     }
-
-
-    &__center {
-        
-    }
     &__center img:nth-child(1){
         position: absolute;
         left: 0;
         bottom: 0;
-        // width: 1920px; 
         width: 100%; 
-        //  width: 16%;
     }
-   
     &__back img:nth-child(1){
         margin-top: 20%;
         margin-left: -50%;
@@ -250,22 +217,10 @@ body{
         margin-top: 4%;
         margin-left: 22%;
         width:8%;
-        /* width: 16%; */
-        // @media(max-width:1920px){
-        //     height: 15vh;
-        // }
     }
-  
     &__back img:nth-child(5){
         margin-top: 30%;
         margin-left: 38%;
          width:15%;
-        /* width: 16%; */
     }
-  
- 
- 
-
-    
-  
 }
