@@ -121,7 +121,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.parallax__front, .parallax__back, .parallax__front {
+.parallax__front, .parallax__back, .parallax__front, .parallax__way {
   position: absolute;
   top: 0;
   left: 0;
@@ -129,42 +129,71 @@ body {
   height: 100%;
   pointer-events: none;
 }
-.parallax__end {
+.parallax__way {
   z-index: 0;
 }
-.parallax__center {
+.parallax__end {
   z-index: 1;
 }
-.parallax__front {
+.parallax__center {
   z-index: 2;
 }
-.parallax__front img, .parallax__back img, .parallax__center img {
+.parallax__front {
+  z-index: 3;
+}
+.parallax__front img, .parallax__back img, .parallax__center img, .parallax__way img {
   position: absolute;
 }
-.parallax__front img {
-  /* box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5); */
-  /* max-width: 220px; */
+.parallax__way img:nth-child(1) {
+  margin-top: -200px;
+  margin-left: -330px;
+  /* width: 13%; */
 }
-.parallax__back img {
-  /* max-width: 380px; */
+.parallax__way img:nth-child(2) {
+  margin-top: -50px;
+  margin-left: 1700px;
 }
 .parallax__front img:nth-child(1) {
-  margin-top: -50px;
+  margin-top: 850px;
+  margin-left: -90px;
   /* width: 13%; */
 }
 .parallax__front img:nth-child(2) {
-  margin-top: 50px;
+  margin-top: 150px;
+  margin-left: 800px;
   /* width: 16%; */
-}
-.parallax__back img:nth-child(1) {
-  margin-top: 50px;
-  /* width: 16%; */
-}
-.parallax__back img:nth-child(2) {
-  /* width: 100%; */
 }
 .parallax__center img:nth-child(1) {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.parallax__back img:nth-child(1) {
+  margin-top: 400px;
+  /* width: 16%; */
+}
+.parallax__back img:nth-child(2) {
+  margin-top: 480px;
+  margin-left: 200px;
+  /* width: 16%; */
+}
+.parallax__back img:nth-child(3) {
+  margin-top: 560px;
+  margin-left: 500px;
+  /* width: 16%; */
+}
+.parallax__back img:nth-child(4) {
+  margin-top: 50px;
+  margin-left: 1400px;
+  /* width: 16%; */
+}
+.parallax__back img:nth-child(5) {
+  margin-top: 550px;
+  margin-left: 1650px;
+  /* width: 16%; */
+}
+.parallax__back img:nth-child(6) {
+  margin-top: -50px;
+  margin-left: 1700px;
+  /* width: 16%; */
 }
