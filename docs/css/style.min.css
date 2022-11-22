@@ -116,7 +116,7 @@ body {
 
 .parallax {
   display: flex;
-  height: 1170px;
+  height: 1160px;
   background: url("../img/bg_effects.png") no-repeat;
   position: relative;
   overflow: hidden;
@@ -164,5 +164,7 @@ body {
   /* width: 100%; */
 }
 .parallax__center img:nth-child(1) {
-  width: 1920px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

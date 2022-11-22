@@ -14,7 +14,7 @@ body{
 }
 .parallax {
     display: flex;
-    height: 1170px;
+    height: 1160px;
     background: url('../img/bg_effects.png') no-repeat;
     position: relative;
     overflow: hidden; //отображает только область внутри блока остальное будет скрыто
@@ -72,8 +72,10 @@ body{
 
     }
     &__center img:nth-child(1){
-       
-        width: 1920px; 
+       position: absolute;
+       bottom: 0;
+        // width: 1920px; 
+        width: 100%; 
         //  width: 16%;
     }
   

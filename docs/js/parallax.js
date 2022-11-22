@@ -1,6 +1,5 @@
 const parallax = document.querySelector('.parallax');
 const front = document.querySelector('.parallax__front');
-const center = document.querySelector('.parallax__center');
 const back = document.querySelector('.parallax__back');
 //сенса
 const sFront = 500;
