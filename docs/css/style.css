@@ -110,6 +110,11 @@ body {
 }
 
 [class*=__container] {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+[class*=__box] {
   max-width: 1920px;
   margin: 0 auto;
 }
