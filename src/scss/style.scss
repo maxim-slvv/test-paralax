@@ -23,7 +23,7 @@ body{
 .parallax {
     display: flex;
     height: 1160px;
-   
+    
     @media(max-width:1900px){
         height: 1140px;
     }
@@ -149,7 +149,7 @@ body{
     }
  
  
-    background: url('../img/bg_effects.png') no-repeat;
+    background: url('../img/bg_effects.webp') no-repeat;
     background-size: cover!important;
     position: relative;
     overflow: hidden; //отображает только область внутри блока остальное будет скрыто
